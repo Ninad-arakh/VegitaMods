@@ -1,0 +1,47 @@
+<div class="all">
+    <div class="navbat">
+        <nav class="navbar">
+            <h2 id="logo">BDG WIN</h2>
+        </nav>
+    </div>
+    <div class="values">
+        <label>Enter first, second, ninth and tenth value without spaces</label>&nbsp;&nbsp;
+        <br>
+        <input type="number" #val1 placeholder="enter a number">
+        <!-- <br><br>
+        <label>Enter second Value</label>&nbsp;&nbsp;
+        <input type="number" #val2 placeholder="enter a number">
+        <br><br>
+        <label>Enter ninth Value</label>&nbsp;&nbsp;
+        <input type="number" #val3 placeholder="enter a number">
+        <br><br>
+        <label>Enter tenth Value</label>&nbsp;&nbsp;
+        <input type="number" #val4 placeholder="enter a number"> -->
+        <br><br>
+
+        <div class="btn">
+            <button (click)="get(val1.value)">Show result</button>
+        </div>
+        <br><br>
+
+        <div class="result" [hidden]="ishidden">
+            <label>Result:</label>&nbsp;&nbsp;
+            <input type="text" disabled [(ngModel)]="result">
+            <br>
+            <label>Ans : </label>&nbsp;&nbsp;
+            <input type="text" disabled [(ngModel)]="sum" id="ans">
+        </div>
+    </div>
+
+    <div class="disc">
+        <h4>This app is built to predict the outcome of a game called Win Go of Big Daddy Game (BDG). This apps works best on Win Go 3Min Game. The accuracy of this app depends on the current
+            trends. Generally, it provides results with 60-70% accuracy when the trend is stable. I am not sure if
+            it will work on other platforms you can try it yourself.</h4>
+            <br>
+        <h3>Thank you for visiting this website!</h3>
+    </div>
+
+    <div class="cc">
+        <h4>&copy;  Ninad</h4>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+.page{
+    background: url("https://w0.peakpx.com/wallpaper/939/674/HD-wallpaper-dollar-money-iphone-iphone.jpg") rgba(0, 0, 0, 0.1);
+
+}
+.btn{
+
+}
+@media screen and (max-width: 768px) {
+    .nav{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        color: white;
+        background: rgb(43, 43, 43);
+        height: 3rem;
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .page{
+        background: url("https://w0.peakpx.com/wallpaper/939/674/HD-wallpaper-dollar-money-iphone-iphone.jpg") rgba(0, 0, 0, 0.1);
+         height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        border-radius: 15px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -1rem;
+    }
+    .btn button{
+        height: 2rem;
+        width: 10rem;
+        margin-top: -18rem;
+        margin-left: 0.8rem;
+        background: rgb(0, 123, 255);
+        color: rgb(255, 216, 181);
+        border-radius: 10px;
+        border:  none;
+        font-size: 1.5rem;
+        transition: 0.5s all;
+    }
+    .btn button:hover{
+        background: rgb(255, 100, 48);
+    }
+    .cc{
+        color: white;
+        background: rgb(43, 43, 43);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+}
